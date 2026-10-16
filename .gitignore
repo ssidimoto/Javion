@@ -1,0 +1,17 @@
+# Build output
+out/
+bin/
+build/
+target/
+*.class
+
+# IntelliJ IDEA
+.idea/
+*.iws
+
+# CS-108 submissions
+submissions/
+
+# OS
+.DS_Store
+Thumbs.db
