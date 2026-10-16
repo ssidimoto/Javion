@@ -1,0 +1,9 @@
+for(int i = fromIndex; i < toIndex; i++){
+            long bytes = this.bytes[i];
+            if(bytes < 0){bytes = ~bytes + 1;}
+            bytes <<= (8L*(i-fromIndex));
+            range|= bytes;
+            System.out.println(Long.toBinaryString(bytes));
+        }
+        return range;
+    }
